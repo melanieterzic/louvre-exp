@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/font/OpenSans-Regular.ttf") format("tff");
+ }
+
+ @font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/font/BebasNeueBook.otf") format("otf");
+ }
+
 body{
   background-image: url("../assets/fond.png");
   width:100vw;
@@ -49,7 +59,7 @@ nav {
   }
 
   #left-side ul{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bebas Neue';
     text-transform: uppercase;
     list-style: none;
     font-size:0.5em;
@@ -64,11 +74,6 @@ nav {
     margin-left: 10%;
     display: block;
     text-decoration: none; 
-  }
-
-  p {
-    font-family: sans-serif;
-    padding: 20px;
   }
   
   .icon {
