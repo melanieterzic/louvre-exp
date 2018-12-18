@@ -84,6 +84,7 @@ img {
     position: absolute;
     height: 4rem;
     width: 4rem;
+    top: 48%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,27 +141,38 @@ body {
     text-align: center;
 }
 
-/* ////////////////  SLIDER ///////////////// */
-
-.slider .indicators .indicator-item {
-    background-color: #666666;
-    border: 3px solid #ffffff;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+.dots {
+    display: flex;
+    align-self: center;
+    left: calc(49% + 1rem);
+    position: absolute;
+    top: 93%;
 }
 
-.slider .indicators .indicator-item.active {
-    background-color: #ffffff;
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #c8b88f;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.slider {
-    width: 900px;
-    margin: 0 auto;
+.active,
+.dot:hover {
+    background-color: #866b41;
+    height: 15px;
+    width: 15px;
 }
 
-.slider .indicators {
-    bottom: 60px;
-    z-index: 100;
-    /* text-align: left; */
+#dot_1 {
+    right: 71px;
+    position: absolute;
+}
+
+#dot_3 {
+    left: 71px;
+    position: absolute;
 }
