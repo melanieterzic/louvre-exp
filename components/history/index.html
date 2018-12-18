@@ -1,0 +1,80 @@
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+     <img src="../../assets/img/small_spot.png" height="100%" width="100%">
+        <!-- <section carrousel>
+            <input id="slide-0" name="carrousel" type="radio" checked/>
+            <div class="slide">
+                <label for="slide-3" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
+                <div class="slide-content">
+                    <p>Le casque de <br />Charles VI</p>
+                </div>
+                <label for="slide-1" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
+            </div>
+        
+            <input id="slide-1" name="carrousel" type="radio" />
+            <div class="slide">
+                <label for="slide-0" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
+                <div class="slide-content">
+                    <p name="c1" class="laSabine">La Sabine</p>
+                </div>
+                <label for="slide-2" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
+            </div>
+        
+            <input id="slide-2" name="carrousel" type="radio" />
+            <div class="slide">
+                <label for="slide-1" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
+                <div class="slide-content">
+                    <p class="tamouthnefret">Sarcophage de <br/>Tamouthnefret</p>
+                </div>
+                <label for="slide-3" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
+            </div>
+        
+            <input id="slide-3" name="carrousel" type="radio" />
+            <div class="slide">
+                <label for="slide-2" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
+                <div class="slide-content">
+                    <p class="journauxFouilles">Journaux de <br/>fouilles</p>
+                </div>
+                <label for="slide-0" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
+            </div> -->
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <p>Le casque de <br />Charles VI</p>
+                </div>
+
+                <div class="mySlides fade">
+                    <p class="laSabine">La Sabine</p>
+                </div>
+
+                <div class="mySlides fade">
+                    <p class="tamouthnefret">Sarcophage de <br/>Tamouthnefret</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)" style="position: absolute; left: 15%;">
+                    <img src="../../assets/svg/left_arrow.svg" height="200%" width="200%">
+                </a>
+                <a class="next" onclick="plusSlides(1)" style="position: absolute; right: 15%;">
+                    <img src="../../assets/svg/right_arrow.svg" height="200%" width="200%">
+                </a>
+
+            </div>
+            <div class="dots">
+                <span id="dot_1" class="dot" onclick="currentSlide(1)"></span>
+                <span id="dot_2" class="dot" onclick="currentSlide(2)"></span>
+                <span id="dot_3" class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <img class="lineSlider" src="../../assets/svg/line_slider.svg" height="10%" width="20%">
+        </section>
+    </div>
+    <script src="./script.js"></script>
+    </body>
+</html>
