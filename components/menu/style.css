@@ -10,7 +10,7 @@
 
 
 body{
-  background-image: url("/Users/melaniegaubert/Downloads/louvre-exp/assets/img/fond.png");
+  background-image: url("../../assets/img/fond.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin:0;
@@ -25,7 +25,7 @@ nav {
     padding:0;
     height: 0;
     transition: height 0.5s ease-in-out; 
-    background-image: url("/Users/melaniegaubert/Downloads/louvre-exp/assets/img/menu.jpg");
+    background-image: url("../../assets/img/menu.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     width:85%;
@@ -97,7 +97,7 @@ nav {
   }
 
   .icon {
-    background-image: url("/Users/melaniegaubert/Downloads/louvre-exp/assets/svg/bandeau.svg");
+    background-image: url("../../assets/svg/bandeau.svg");
     background-repeat: no-repeat;
     display: block;
     text-align: center;
