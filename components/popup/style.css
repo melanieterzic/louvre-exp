@@ -1,0 +1,83 @@
+body {
+    background: url('../../assets/img/fond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-up-button {
+    background: none;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFEA53;
+    margin: 200px auto;
+    border-radius: 5px;
+    border: 1px solid #FFEA53;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pop-up-button:hover {
+    background: #FFEA53;
+    color: #121212;
+}
+
+
+.pop-up {
+    background: linear-gradient( #FAF1CB, #E9DBB2);
+    height: 71%;
+    top: 6vh;
+    left: 30vw;
+    width: 40%;
+    margin: 10vh auto;
+    position: absolute;
+    z-index: 1;
+    border-radius: 17px;
+    box-shadow: 0 0 20px #000;
+}
+
+.pop-up-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+span {
+    border-radius: 3em;
+    margin-left: 95%;
+    background: #212121;
+    color: #fff;
+    font-size: 1.25em;
+    padding: .4em .7em;
+    cursor: pointer;
+}
+
+.pop-up-text {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.pop-up-text h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #212121;
+}
+
+.pop-up-text p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.pop-up-text a {
+    color: #FF3D3D;
+    margin-bottom: 10px;
+}
+
+.pop-up-text img {
+    max-height: 250px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
