@@ -7,65 +7,27 @@
 
 <body>
     <div class="main">
-     <img src="../../assets/img/small_spot.png" height="100%" width="100%">
-        <!-- <section carrousel>
-            <input id="slide-0" name="carrousel" type="radio" checked/>
-            <div class="slide">
-                <label for="slide-3" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
-                <div class="slide-content">
-                    <p>Le casque de <br />Charles VI</p>
-                </div>
-                <label for="slide-1" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
-            </div>
-        
-            <input id="slide-1" name="carrousel" type="radio" />
-            <div class="slide">
-                <label for="slide-0" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
-                <div class="slide-content">
-                    <p name="c1" class="laSabine">La Sabine</p>
-                </div>
-                <label for="slide-2" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
-            </div>
-        
-            <input id="slide-2" name="carrousel" type="radio" />
-            <div class="slide">
-                <label for="slide-1" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
-                <div class="slide-content">
-                    <p class="tamouthnefret">Sarcophage de <br/>Tamouthnefret</p>
-                </div>
-                <label for="slide-3" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
-            </div>
-        
-            <input id="slide-3" name="carrousel" type="radio" />
-            <div class="slide">
-                <label for="slide-2" class="back"><img src="../../assets/svg/left_arrow.svg" height="70%" width="70%"></label>
-                <div class="slide-content">
-                    <p class="journauxFouilles">Journaux de <br/>fouilles</p>
-                </div>
-                <label for="slide-0" class="forward"><img src="../../assets/svg/right_arrow.svg" height="70%" width="70%"></label>
-            </div> -->
-
+        <div>
+            <h1 class="title">Sélectionnez votre histoire</h1>
+            <img class="lineTitle" src="../../assets/svg/line_text_menu.svg" height="35%" width="35%">
+        </div>
+        <img class="tache" src="../../assets/img/small_spot.png" height="80%" width="80%">
             <div class="slideshow-container">
-
                 <div class="mySlides fade">
-                    <p>Le casque de <br />Charles VI</p>
+                    <a class="casque">Le casque de <br />Charles VI</a>
                 </div>
-
                 <div class="mySlides fade">
-                    <p class="laSabine">La Sabine</p>
+                    <a class="laSabine">La Sabine</a>
                 </div>
-
                 <div class="mySlides fade">
-                    <p class="tamouthnefret">Sarcophage de <br/>Tamouthnefret</p>
+                    <a class="tamouthnefret">Sarcophage de <br/>Tamouthnefret</a>
                 </div>
-
-                <a class="prev" onclick="plusSlides(-1)" style="position: absolute; left: 15%;">
-                    <img src="../../assets/svg/left_arrow.svg" height="200%" width="200%">
+                <a class="prev" onclick="plusSlides(-1)" style="left: 10%;">
+                    <img src="../../assets/svg/left_arrow.svg" height="65%" width="65%">
                 </a>
-                <a class="next" onclick="plusSlides(1)" style="position: absolute; right: 15%;">
-                    <img src="../../assets/svg/right_arrow.svg" height="200%" width="200%">
+                <a class="next" onclick="plusSlides(1)" style="right: 10%;">
+                    <img src="../../assets/svg/right_arrow.svg" height="65%" width="65%">
                 </a>
-
             </div>
             <div class="dots">
                 <span id="dot_1" class="dot" onclick="currentSlide(1)"></span>
