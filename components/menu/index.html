@@ -1,44 +1,81 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
     <title>menu</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
 </head>
+
 <body>
     <nav data-collapsed="true">
         <div id="top-side">
-            <img style="margin-right:1%; width:100%; height:100%;" src="../../assets/svg/bottom.svg">
+            <img style="margin-right:1%; width:87%; height:100%;" src="../../assets/svg/bottom.svg">
             <p class="paragraphe">
-            Archéologie </p> 
+                Archéologie en bulle </p>
         </div>
         <div id="left-side">
-        <br><br>
-        <div id="top-left">
-        <p class="titre">musée</p>
-        <img src="../../assets/svg/musee.svg" height="4px">
-        </div>
-        <div id="bottom-left">
-          <p><b>les histoires</b></p>
-          <img style="width:40%;" src="../../assets/svg/separateur2.svg">
-          <p>à propos</p>
-          <img style="width:40%;" src="../../assets/svg/separateur2.svg">
-          <p>découvrir l'exposition</p>
-          <img style="width:40%;" src="../../assets/svg/separateur2.svg">
-          <p>nous contacter</p>
-        </div>
+            <br>
+            <br>
+            <div id="top-left">
+                <p class="titre">Le musée</p>
+                <img src="../../assets/svg/musee.svg" height="6px">
+            </div>
+            <div id="bottom-left">
+                <p>
+                    <b>les histoires</b>
+                </p>
+                <img style="width:40%;" src="../../assets/svg/separateur2.svg">
+                <p>à propos</p>
+                <img style="width:40%;" src="../../assets/svg/separateur2.svg">
+                <p>découvrir l'exposition</p>
+                <img style="width:40%;" src="../../assets/svg/separateur2.svg">
+                <p>nous contacter</p>
+            </div>
         </div>
         <div id="separation">
-                <img class="right" src="../../assets/svg/right.svg" width="3px" height="100%">
+            <img class="right" src="../../assets/svg/right.svg" width="4.5px" height="100%">
+        </div>
+        <div class="history">
+            <div>
+                <p class="title">Les histoires</p>
+                <img class="lineTitle" src="../../assets/svg/line_text_menu.svg" height="15%" width="15%">
+            </div>
+            <img class="tache" src="../../assets/img/small_spot.png" height="65%" width="60%">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <a class="casque">Le casque de
+                        <br />Charles VI</a>
+                </div>
+                <div class="mySlides fade">
+                    <a class="laSabine">La Sabine</a>
+                </div>
+                <div class="mySlides fade">
+                    <a class="tamouthnefret">Sarcophage de
+                        <br/>Tamouthnefret</a>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)" style="left: 40%;">
+                    <img class="arrowLeft" src="../../assets/svg/left_arrow.svg" height="45%" width="45%">
+                </a>
+                <a class="next" onclick="plusSlides(1)" style="right: 15%;">
+                    <img class="arrowRight" src="../../assets/svg/right_arrow.svg" height="45%" width="45%">
+                </a>
+            </div>
+            <div class="dots">
+                <span id="dot_1" class="dot" onclick="currentSlide(1)"></span>
+                <span id="dot_2" class="dot" onclick="currentSlide(2)"></span>
+                <span id="dot_3" class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <img class="lineSlider" src="../../assets/svg/line_slider.svg" height="10%" width="20%">
+            </section>
         </div>
 
 
     </nav>
-      <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
-        <img style="margin-top:30px;" src="../../assets/svg/burger.svg"  width="32px" height="24px" >
-        
+    <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+        <img style="margin-top:30px;" src="../../assets/svg/burger.svg" width="32px" height="24px">
     </a>
+    <script src="./script.js"></script>
 </body>
