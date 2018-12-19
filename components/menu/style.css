@@ -101,7 +101,8 @@ nav {
     font-size: 22px;
 }
 
-.icon {
+
+  .icon {
     background-image: url("../../assets/svg/bandeau.svg");
     background-repeat: no-repeat;
     display: block;
