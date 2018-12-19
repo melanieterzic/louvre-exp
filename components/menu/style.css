@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Open Sans";
-    src: url("../OpenSans-Regular.ttf") format("ttf");
+    font-family: "Bebas Neue";
+    src: url("../../assets/font/BebasNeueBook.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Bebas Neue";
-    src: url("../BebasNeueBook.otf") format("otf");
+    font-family: "Playfair";
+    src: url("../assets/font/PlayfairDisplay-Regular.woff") format("woff");
 }
 
 body {
@@ -42,7 +42,7 @@ nav {
     margin-right: 2%;
     margin-left: 2%;
     text-align: right;
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair;
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
@@ -61,9 +61,9 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 26px;
     cursor: pointer;
     margin-top: 12%;
 }
@@ -71,7 +71,7 @@ nav {
 #separation {
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
+    margin-top: -2%;
     margin-bottom: 2%;
 }
 
@@ -90,10 +90,15 @@ nav {
 
 .titre {
     margin: 0;
-    font-size: 1.7em;
-    font-family: 'Playfair Display', serif;
+    font-size: 47px;
+    font-family: Playfair;
     letter-spacing: 1px;
     text-align: center;
+}
+
+.paragraphe {
+    text-align: center;
+    font-size: 22px;
 }
 
 .icon {
@@ -106,4 +111,189 @@ nav {
     padding: 0;
     width: 70px;
     height: 150px;
+}
+
+/* SLIDER */
+
+.history {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 76%;
+}
+
+.tache {
+    position: absolute;
+    top: 13vh;
+    left: 31vw;
+}
+
+.title {
+    margin: 0;
+    font-size: 47px;
+    font-family: Playfair;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #866b41;
+    position: absolute;
+    top: 86px;
+    left: 54.5%;
+}
+
+.lineTitle {
+    position: absolute;
+    top: 7vh;
+    left: 54.5vw;
+}
+
+/* ////////////////  SLIDER  ///////////////// */
+
+/* Slideshow container */
+
+* {
+    box-sizing: border-box
+}
+
+.mySlides {
+    display: none
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+
+.casque,
+.laSabine,
+.tamouthnefret {
+    position: absolute;
+    top: 34vh;
+    font-family: Playfair;
+    color: #866b41;
+    font-size: 40px;
+    text-align: center;
+}
+
+.casque {
+    left: calc(55% + 1rem);
+}
+
+.laSabine {
+    left: calc(56% + 1rem);
+    opacity: 0.4;
+}
+
+.tamouthnefret {
+    left: calc(54.3% + 1rem);
+    opacity: 0.4;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+
+.dots {
+    display: flex;
+    align-self: center;
+    left: calc(60.5% + 1rem);
+    position: absolute;
+    bottom: 13%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: #c8b88f;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    z-index: 1;
+}
+
+.active,
+.dot:hover {
+    background-color: #866b41;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -3px;
+}
+
+#dot_1 {
+    right: 114px;
+    position: absolute;
+}
+
+#dot_2 {
+    right: -10px;
+    position: absolute;
+}
+
+#dot_2:hover {
+    right: 0;
+    left: 0;
+}
+
+#dot_3 {
+    left: 114px;
+    position: absolute;
+}
+
+/* Line slider */
+
+.lineSlider {
+    bottom: 61px;
+    left: 52%;
+    z-index: 0;
+    position: absolute;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
