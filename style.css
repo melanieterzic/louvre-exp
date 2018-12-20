@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../../assets/font/BebasNeueBook.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("../assets/font/PlayfairDisplay-Regular.woff") format("woff");
+}
+
 body {
     margin: 0;
     background: white;
@@ -36,16 +46,6 @@ video {
 
 /* STYLE - SELECT HISTORY */
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("../assets/font/OpenSans-Light.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Playfair";
-    src: url("../assets/font/PlayfairDisplay-Regular.woff") format("woff");
-}
-
 body {
     width: 100%;
     height: 100%;
@@ -64,18 +64,20 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    background-image: url("./assets/img/menu.jpg")
 }
 
 .tache {
     position: absolute;
-    top: 13vH;
-    left: 10vw;
+    top: 17vh;
+    left: 25vw;
+    width: 50%;
 }
 
 .title {
     position: absolute;
     top: 1vh;
-    left: calc(34% + 1rem);
+    left: calc(33% + 1rem);
     font-family: Playfair;
     font-weight: lighter;
     color: #866b41;
@@ -85,8 +87,8 @@ body {
 
 .lineTitle {
     position: absolute;
-    top: -6.5vh;
-    left: 33.5vw;
+    top: -6vh;
+    left: 34vw;
 }
 
 a {
@@ -109,7 +111,7 @@ a {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 24%;
+    top: 21%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -134,26 +136,26 @@ a {
 .laSabine,
 .tamouthnefret {
     position: absolute;
-    top: 47vh;
-    font-family: Playfair;
-    color: #866b41;
-    font-size: 55px;
+    top: 46vh;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 68px;
     text-align: center;
+    text-shadow: 1px 1px 13px #000;
+    letter-spacing: 2px;
+    z-index: 1;
 }
 
 .casque {
-    left: calc(41.5% + 1rem);
+    left: calc(42% + 1rem);
 }
 
 .laSabine {
     left: calc(44% + 1rem);
-    opacity: 0.4;
 }
 
 .tamouthnefret {
-    left: calc(41% + 1rem);
-    opacity: 0.4;
-    text-align: center;
+    left: calc(40% + 1rem);
 }
 
 /* The dots/bullets/indicators */
@@ -164,6 +166,7 @@ a {
     left: calc(48.5% + 1rem);
     position: absolute;
     top: 93%;
+    z-index: 4;
 }
 
 .dot {
@@ -208,9 +211,8 @@ a {
 /* Line slider */
 
 .lineSlider {
-    top: 993px;
+    top: 1063px;
     left: 40%;
-    z-index: -6;
     position: absolute;
 }
 
