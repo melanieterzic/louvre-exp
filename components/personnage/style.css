@@ -4,14 +4,13 @@
 body {
 	font: 12px Arial, Helvetica, sans-serif;
 	color: #FFF;
+	padding:0;
+	margin:0;
 }
 #canvas_holder {
 	margin: 0 auto;
-	width: 1200px;
+	width: 1920px;
 	height: 1200px;
 	background: #FFF;
 }
-#canvas {
-}
-#feedback {
-}
+
