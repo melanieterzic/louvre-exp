@@ -54,7 +54,7 @@ video {
 .desc {
     position: absolute;
     top: 41vh;
-    left: calc(15% + 1rem);
+    left: calc(20% + 1rem);
     font-family: Playfair;
     font-weight: lighter;
     color: #866b41;
@@ -68,4 +68,22 @@ video {
     transition: 3s opacity;
     text-align: center;
     font-size: 32px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 34vh;
+    left: 43vw;
+    width: 13%;
+    height: 3%;
+    padding: 7px 0px 6px 0;
+    background-color: #f7f7f7a3;
+    border: 5px solid #fff;
+    border-radius: 50px;
+    box-shadow: 3px 3px 18px #000;
+    color: #866b41;
+    text-decoration: none;
+    font-family: Playfair;
+    font-weight: lighter;
+    font-size: 31px;
 }

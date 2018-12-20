@@ -52,3 +52,13 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+// FADE IN
+
+window.onload = function () {
+    window.setTimeout(fadein, 1000); //8 seconds
+}
+
+function fadein() {
+    document.getElementById('fadein').style.opacity = '1';
+}
