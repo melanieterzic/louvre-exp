@@ -126,7 +126,8 @@ nav {
 .tache {
     position: absolute;
     top: 13vh;
-    left: 31vw;
+    left: 44vw;
+    width: 35%;
 }
 
 .title {
@@ -191,25 +192,24 @@ nav {
 .tamouthnefret {
     position: absolute;
     top: 34vh;
-    font-family: Playfair;
-    color: #866b41;
-    font-size: 40px;
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 2px;
     text-align: center;
+    text-shadow: 1px 1px 13px #000;
 }
 
 .casque {
-    left: calc(55% + 1rem);
+    left: calc(55.3% + 1rem);
 }
 
 .laSabine {
-    left: calc(56% + 1rem);
-    opacity: 0.4;
+    left: calc(57% + 1rem);
 }
 
 .tamouthnefret {
     left: calc(54.3% + 1rem);
-    opacity: 0.4;
-    text-align: center;
 }
 
 /* The dots/bullets/indicators */
