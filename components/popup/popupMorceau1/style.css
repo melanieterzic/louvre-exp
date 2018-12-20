@@ -1,0 +1,90 @@
+body {
+    background: url('../../../assets/img/fond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-up-button {
+    background: none;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFEA53;
+    margin: 200px auto;
+    border-radius: 5px;
+    border: 1px solid #FFEA53;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pop-up-button:hover {
+    background: #FFEA53;
+    color: #121212;
+}
+
+.pop-up {
+    background: linear-gradient( #FAF1CB, #E9DBB2);
+    position: absolute;
+    height: 71%;
+    width: 40%;
+    top: 6vh;
+    left: 30vw;
+    margin: 10vh auto;
+    z-index: 1;
+    border-radius: 17px;
+    box-shadow: 0 0 20px #000;
+}
+
+.borderPopup {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    border-radius: 17px;
+    border: 4px solid #866b41;
+}
+
+.title {
+    position: absolute;
+    top: 0vh;
+    left: 5.5vw;
+    font-family: Playfair;
+    font-weight: lighter;
+    color: #866b41;
+    font-size: 50px;
+    text-align: center;
+}
+
+.lineTitle {
+    position: absolute;
+    top: 6vh;
+    left: 5.5vw;
+}
+
+.cross {
+    position: absolute;
+    top: 3vh;
+    right: 2vw;
+}
+
+.desc {
+    position: absolute;
+    bottom: 2vh;
+    left: 2vw;
+    font-family: Playfair;
+    font-weight: lighter;
+    color: #866b41;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: justify;
+    width: 90%;
+}
+
+.casque {
+    position: absolute;
+    top: 11vh;
+    left: 5vw;
+    width: 70%;
+}
