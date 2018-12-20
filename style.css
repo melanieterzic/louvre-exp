@@ -111,7 +111,7 @@ a {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 24%;
+    top: 21%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -136,7 +136,7 @@ a {
 .laSabine,
 .tamouthnefret {
     position: absolute;
-    top: 48vh;
+    top: 46vh;
     font-family: Bebas Neue;
     color: white;
     font-size: 68px;
@@ -151,7 +151,7 @@ a {
 }
 
 .laSabine {
-    left: calc(43.5% + 1rem);
+    left: calc(44% + 1rem);
 }
 
 .tamouthnefret {
@@ -165,7 +165,7 @@ a {
     align-self: center;
     left: calc(48.5% + 1rem);
     position: absolute;
-    top: 94%;
+    top: 93%;
     z-index: 4;
 }
 
@@ -211,7 +211,7 @@ a {
 /* Line slider */
 
 .lineSlider {
-    top: 1004px;
+    top: 1063px;
     left: 40%;
     position: absolute;
 }
