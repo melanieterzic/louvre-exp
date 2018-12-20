@@ -1,5 +1,5 @@
 body {
-    background: url('../../assets/img/fond.png');
+    background: url('../../../assets/img/fond.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -76,13 +76,15 @@ body {
     font-family: Playfair;
     font-weight: lighter;
     color: #866b41;
-    font-size: 22px;
-    letter-spacing: 4px;
-    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: justify;
+    width: 90%;
 }
 
 .casque {
     position: absolute;
     top: 13vh;
-    left: 7vw;
+    left: -1vw;
+    width: 100%;
 }
