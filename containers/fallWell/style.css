@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("../assets/font/OpenSans-Light.woff") format("woff");
+    src: url("../assets/font/OpenSans-Regular.woff") format("woff");
 }
 
 body {
@@ -41,18 +41,26 @@ video {
 }
 
 .instructions {
-    color: white;
+    color: #000;
     font-family: Open Sans;
     font-size: 25px;
     position: absolute;
-    top: 88vh;
+    top: 86vh;
     left: 38vw;
 }
 
 .keySpace {
     width: 40%;
-    position: absolute;
-    top: -3vh;
+    position: relative;
+    top: 1.5vh;
+    left: 2%;
+}
+
+.sound {
+    width: 9%;
+    position: relative;
+    top: 1.5vh;
+    left: 2%;
 }
 
 #fall {

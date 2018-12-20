@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('fall').style.visibility = 'hidden';
     document.querySelector('.instructions').style.visibility = 'hidden';
     document.getElementById('malTete').style.visibility = 'hidden';
+    document.getElementById('vid').pause();
 
 })
 
@@ -36,6 +37,7 @@ document.onkeydown = document.body.onkeydown = function (e) {
         document.querySelector('.instructions').style.visibility = 'hidden';
         document.getElementById('malTete').style.visibility = 'hidden';
         document.getElementById('fall').style.visibility = 'visible';
+
         audio.load();
         audio.play();
 
@@ -47,9 +49,8 @@ document.onkeydown = document.body.onkeydown = function (e) {
             document.getElementById('fall').style.visibility = 'hidden';
 
 
+            document.getElementById('vid').play();
             if (window.matchMedia('(prefers-reduced-motion)').matches) {
-                document.getElementById('vid').removeAttribute('autoplay');
-                document.getElementById('vid').pause();
                 pauseButton.innerHTML = 'Paused';
             }
 
@@ -61,7 +62,6 @@ document.onkeydown = document.body.onkeydown = function (e) {
                 // only functional if 'loop' is removed 
                 document.getElementById('vid').pause();
                 // to capture IE10
-                vidFade();
             });
         });
     } else {
