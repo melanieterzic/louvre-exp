@@ -7,7 +7,18 @@ $(document).ready(function(e) {
 	var clavier = new Clavier();
 	var droite=300, haut=550, flip=true, frame=0, widthS=218, heightS=379, LineLenght=7, xpave=100, xpierre=1790, xpierre2=1200, xpuit=1900;
 	var scene1=true, scene2=false, scene3=false, scene4=false ; 
-	// ************** DECOR *****************
+	// ************** DECOR 1 *****************
+	var pave 			= new Image();
+	var puit 			= new Image();
+	var pierre 			= new Image();
+	var pierre2 			= new Image();
+	pave.src            = '../../assets/img/pave.png';
+	puit.src            = '../../assets/img/puit.png';
+	pierre.src            = '../../assets/img/pierre.png';
+	pierre2.src            = '../../assets/img/pierre2.png';
+
+	// ************** DECOR 2 *****************
+
 	var pave 			= new Image();
 	var puit 			= new Image();
 	var pierre 			= new Image();
@@ -63,7 +74,7 @@ $(document).ready(function(e) {
 			CTX.drawImage(perso.pic, (frame%LineLenght)*widthS,Math.floor(frame/LineLenght)*heightS,widthS,heightS,0,0,widthS,heightS);
 			CTX.restore();
 		}
-		else if (scene1 == false && scene2 == true){
+		else if (scene2 == true){
 
 		}
 
