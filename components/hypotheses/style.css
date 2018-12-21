@@ -60,7 +60,6 @@ video {
     color: #866b41;
     font-size: 31px;
     text-align: center;
-    animation: fadeIn 1s infinite alternate;
 }
 
 #fadein {
