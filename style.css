@@ -242,3 +242,10 @@ a {
         opacity: 1
     }
 }
+
+#fadein {
+    opacity: 0;
+    transition: 3s opacity;
+    text-align: center;
+    font-size: 32px;
+}

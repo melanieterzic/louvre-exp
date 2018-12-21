@@ -56,7 +56,7 @@ function showSlides(n) {
 // FADE IN
 
 window.onload = function () {
-    window.setTimeout(fadein, 1000); //8 seconds
+    window.setTimeout(fadein, 10000); //8 seconds
 }
 
 function fadein() {
