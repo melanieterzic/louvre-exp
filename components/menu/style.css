@@ -1,12 +1,12 @@
-@font-face {
+/* @font-face {
     font-family: "Bebas Neue";
     src: url("../../assets/font/BebasNeueBook.woff") format("woff");
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "Playfair";
-    src: url("../assets/font/PlayfairDisplay-Regular.woff") format("woff");
-}
+    src: url("../../assets/font/PlayfairDisplay-Regular.woff") format("woff");
+} */
 
 body {
     background-image: url("../../assets/img/fond.png");

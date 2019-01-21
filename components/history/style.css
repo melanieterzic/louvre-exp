@@ -1,12 +1,12 @@
-@font-face {
+/* @font-face {
     font-family: "Open Sans";
-    src: url("../assets/font/OpenSans-Regular.woff") format("woff");
-}
+    src: url("../../assets/font/OpenSans-Regular.woff") format("woff");
+} */
 
-@font-face {
+/* @font-face {
     font-family: "Playfair";
-    src: url("../assets/font/PlayfairDisplay-Regular.woff") format("woff");
-}
+    src: url("../../assets/font/PlayfairDisplay-Regular.woff") format("woff");
+} */
 
 body {
     width: 100%;

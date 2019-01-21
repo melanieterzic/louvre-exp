@@ -71,11 +71,9 @@ $(document).ready(function(e) {
 	var perso2					= new Object( { 'pic':new Image(), 'x':0, 'y':0, 'angle':0 } );
 	perso2.pic.src				= '../../assets/img/spritesheet.png';
 
-		perso.pic.onload=function(){ setInterval(boucle,25); };
+	perso.pic.onload=function(){ setInterval(boucle,25); };
 
 	function boucle(){
-
-
 		if (clavier.haut){
 			scene = 1;
 		}
